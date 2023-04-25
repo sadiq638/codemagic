@@ -1,7 +1,7 @@
 workflows:
   ios-automatic-code-signing:
     name: iOS automatic code signing
-    instance_type: mac_pro
+    instance_type: mac_mini_m1
     working_directory: ios/ios-automatic-code-signing-demo-project
     environment:
       groups:
