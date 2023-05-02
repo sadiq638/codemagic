@@ -7,7 +7,7 @@ workflows:
       vars:
         XCODE_WORKSPACE: "swiftly.xcworkspace"
         XCODE_SCHEME: "swiftly"
-      xcode: 13.0
+      xcode: 13.3.1
       cocoapods: default
     scripts:
       - name: Install CocoaPods dependencies
