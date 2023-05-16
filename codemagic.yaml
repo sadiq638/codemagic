@@ -6,7 +6,7 @@ workflow:
       scripts: 
         - name : test dir
           script: |
-             pwd 
+             echo pwd 
              ls -l 
         - name : test clone
           script: |
