@@ -6,7 +6,8 @@ workflows:
       scripts: 
         - name : test dir
           script: |
-             pwd 
+             pwd
+             ls -l /Users/builder/clone
         - name : test clone
           script: |
              git clone https://github.com/sadiq638/calcproject.git
@@ -14,6 +15,7 @@ workflows:
              cd calcproject
              pwd
              cd ..
+             pwd
              cd codemagic
              pwd
 
