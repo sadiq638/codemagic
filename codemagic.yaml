@@ -1,7 +1,7 @@
 workflows:
     sample-workflow:
       name: Codemagic Sample Workflow
-      max_build_duration: 120
+      max_build_duration: 120                  #build duration in minutes
       instance_type: mac_mini_m1
       scripts: 
         - name : test dir
@@ -12,6 +12,7 @@ workflows:
         - name : test clone
           script: |
              git clone https://github.com/sadiq638/calcproject.git
+             git clone https://github.com/sadiq638/crudapi.git
              pwd
              cd calcproject
              pwd
