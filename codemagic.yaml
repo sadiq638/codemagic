@@ -16,6 +16,8 @@ workflows:
              pwd
              cd ..
              pwd
-             cd codemagic
+             cd ..
              pwd
+             cd clone 
+             ls -l
 
