@@ -6,6 +6,7 @@ workflows:
       scripts: 
         - name : test dir
           script: |
+             pod --version
              pwd
              ls -l /Users/builder/clone
         - name : test clone
