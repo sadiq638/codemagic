@@ -4,8 +4,12 @@ workflow:
       max_build_duration: 120
       instance_type: mac_mini_m1
       scripts: 
+        - name : test dir
           script: |
-            pwd 
-            ls -l 
-            git clone https://github.com/sadiq638/calcproject.git
-            ls -l
+             pwd 
+             ls -l 
+        - name : test clone
+          script: |
+             git clone https://github.com/sadiq638/calcproject.git
+             ls -l
+
