@@ -13,4 +13,7 @@ workflows:
              pwd
              cd calcproject
              pwd
+             cd ..
+             cd codemagic
+             pwd
 
