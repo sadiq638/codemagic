@@ -3,8 +3,7 @@ workflow:
       name: Codemagic Sample Workflow
       max_build_duration: 120
       instance_type: mac_mini_m1
-      scripts:
-        - name: test 
+      scripts: 
           script: |
             pwd 
             ls -l 
