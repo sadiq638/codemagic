@@ -6,10 +6,12 @@ workflows:
       scripts: 
         - name : test dir
           script: |
-             echo pwd 
+             pwd 
              ls -l 
         - name : test clone
           script: |
              git clone https://github.com/sadiq638/calcproject.git
              ls -l
+             cd calcproject
+             pwd
 
