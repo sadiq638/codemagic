@@ -7,11 +7,10 @@ workflows:
         - name : test dir
           script: |
              pwd 
-             ls -l 
         - name : test clone
           script: |
              git clone https://github.com/sadiq638/calcproject.git
-             ls -l
+             pwd
              cd calcproject
              pwd
 
